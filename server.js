@@ -14,9 +14,9 @@ app.use((req, res, next) => {
   next();
 })
 
-app.use((req, res, next) => {
-  res.render('site.hbs')
-})
+// app.use((req, res, next) => {
+//   res.render('site.hbs')
+// })
 
 app.get('/', (req, res) => {
   res.send({
